@@ -14,9 +14,11 @@ Desktop.ini
 *.vcxproj.user
 
 # Unity
-/Library
-/Logs
-/Temp
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
 /Recordings/*.mov
 /Recordings/*.mp4

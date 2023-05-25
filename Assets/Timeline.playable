@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d577b19704f8c0918049f4add936a44, type: 3}
-  m_Name: FfmpegRecorderSettings
+  m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
   take: 5
@@ -483,6 +483,7 @@ MonoBehaviour:
       m_Root: 0
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
+      m_AbsolutePath: 
     m_FileName: render
   preset: 6
   frameRateConversion: 0
@@ -847,6 +848,7 @@ MonoBehaviour:
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
+    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: -616347156465921995}
 --- !u!74 &4383184567081533477
