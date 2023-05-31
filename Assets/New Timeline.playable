@@ -212,11 +212,11 @@ MonoBehaviour:
     m_Objects: []
   template:
     controls:
-    - enabled: 1
+    - enabled: 0
       mode: 1
       noteFilter:
         note: 1
-        octave: 0
+        octave: 4
       envelope:
         attack: 0
         decay: 1
@@ -254,3 +254,54 @@ MonoBehaviour:
       fieldName: m_LocalScale
       vector0: {x: 0.5, y: 0.5, z: 0.5, w: 0}
       vector1: {x: 5, y: 5, z: 5, w: 0}
+    - enabled: 0
+      mode: 1
+      noteFilter:
+        note: 3
+        octave: 4
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -11.275604
+          outSlope: -11.275604
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.059916347
+          value: 0.32440695
+          inSlope: -6.821677
+          outSlope: -6.821677
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.19728392
+          value: -0.00084519386
+          inSlope: -0.0059782644
+          outSlope: -0.0059782644
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.68468016
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: c400ec1d54970294aa52ced953e2890d
+        defaultValue: {fileID: 0}
+      propertyName: localPosition
+      fieldName: m_LocalPosition
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 0, y: 0, z: 3, w: 0}
